@@ -1,5 +1,10 @@
 Testing this **garbage**.
 
+<audio controls>
+  <source src="https://dl.dropboxusercontent.com/u/837649/music/2017/THA-disruptorcannon.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Hamst3r/tha/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
