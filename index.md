@@ -1,9 +1,3 @@
-<html>
-<head>
-The Hamster Alliance
-</head>
-<body>
-
 Testing this **garbage**.
 
 <audio controls>
@@ -13,7 +7,7 @@ Your browser does not support the audio element.
 
 -
 
-<iframe src="audio.html" width="600" height="300" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="audio.html" width="800" height="1200" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Welcome to GitHub Pages
 
