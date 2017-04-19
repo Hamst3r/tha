@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="audio.css">
+  <script src="audio.js"></script>
+</head>
+<body>
+
 Testing this **garbage**.
 
 <audio controls>
