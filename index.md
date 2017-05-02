@@ -1,12 +1,6 @@
 Testing this **garbage**.
 
-<audio controls>
-  <source src="https://dl.dropboxusercontent.com/u/837649/music/2017/THA-disruptorcannon.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-
-<iframe src="audio.html" width="800" height="1200" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-
+<div style="text-align: right"><iframe src="audio.html" width="700" height="300" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 
 ## Welcome to GitHub Pages
 
