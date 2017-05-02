@@ -7,7 +7,7 @@
 /* Desktop
 ================================================== */
 
-.container { position:relative; margin:0px; width:100%; }
+.container { position:relative; margin:0px; max-width:100%; }
 .column { width:inherit; }
 
 
@@ -129,7 +129,7 @@ a[id^="btn"]:hover,a[id^="btn"]:active { background-color:#262223; }
 a[id^="btn"]::-moz-focus-inner { border:0; padding:0; }
 
 /* IE 9 */
-html[data-useragent*="MSIE 9.0"] audio { margin-left:9px; outline:none; width:680px; }
+html[data-useragent*="MSIE 9.0"] audio { margin-left:9px; outline:none; width:100%; }
 html[data-useragent*="MSIE 9.0"] #audiowrap { background-color:#000; }
 html[data-useragent*="MSIE 9.0"] a[id^="btn"] { background-color:#000; }
 html[data-useragent*="MSIE 9.0"] a[id^="btn"]:hover { background-color:#080808; }
@@ -139,7 +139,7 @@ html[data-useragent*="MSIE 9.0"] .plSel,
 html[data-useragent*="MSIE 9.0"] .plSel:hover { background-color:#080808!important; }
 
 /* IE 10 */
-html[data-useragent*="MSIE 10.0"] audio { margin-left:6px; width:687px; }
+html[data-useragent*="MSIE 10.0"] audio { margin-left:6px; width:100%; }
 html[data-useragent*="MSIE 10.0"] #audiowrap { background-color:#000; }
 html[data-useragent*="MSIE 10.0"] a[id^="btn"] { background-color:#000; }
 html[data-useragent*="MSIE 10.0"] a[id^="btn"]:hover { background-color:#080808; }
@@ -149,7 +149,7 @@ html[data-useragent*="MSIE 10.0"] .plSel,
 html[data-useragent*="MSIE 10.0"] .plSel:hover { background-color:#080808!important; }
 
 /* IE 11 */
-html[data-useragent*="rv:11.0"] audio { margin-left:2px; width:695px; }
+html[data-useragent*="rv:11.0"] audio { margin-left:2px; width:100%; }
 html[data-useragent*="rv:11.0"] #audiowrap { background-color:#000; }
 html[data-useragent*="rv:11.0"] a[id^="btn"] { background-color:#000; }
 html[data-useragent*="rv:11.0"] a[id^="btn"]:hover { background-color:#080808; }
@@ -170,7 +170,7 @@ html[data-useragent*="Apple"] .plSel:hover { background-color:#080808!important;
 
 /* IOS 7 */
 html[data-useragent*="OS 7"] body { color:#373837; }
-html[data-useragent*="OS 7"] audio { margin-left:3px; width:690px; }
+html[data-useragent*="OS 7"] audio { margin-left:3px; width:100%; }
 html[data-useragent*="OS 7"] #audiowrap { background-color:#e6e6e6; }
 html[data-useragent*="OS 7"] a[id^="btn"] { background-color:#e6e6e6; color:#373837; }
 html[data-useragent*="OS 7"] a[id^="btn"]:hover { background-color:#eee; }
@@ -181,7 +181,7 @@ html[data-useragent*="OS 7"] .plSel:hover { background-color:#eee!important; }
 
 /* IOS 8 */
 html[data-useragent*="OS 8"] body { color:#373837; }
-html[data-useragent*="OS 8"] audio { margin-left:6px; width:694px; }
+html[data-useragent*="OS 8"] audio { margin-left:6px; width:100%; }
 html[data-useragent*="OS 8"] #audiowrap { background-color:#e4e4e4; }
 html[data-useragent*="OS 8"] a[id^="btn"] { background-color:#e4e4e4; color:#373837; }
 html[data-useragent*="OS 8"] a[id^="btn"]:hover { background-color:#eee; }
@@ -192,7 +192,7 @@ html[data-useragent*="OS 8"] .plSel:hover { background-color:#eee!important; }
 
 /* IOS 9 */
 html[data-useragent*="OS 9"] body { color:#373837; }
-html[data-useragent*="OS 9"] audio { margin-left:6px; width:694px; }
+html[data-useragent*="OS 9"] audio { margin-left:6px; width:100%; }
 html[data-useragent*="OS 9"] #audiowrap { background-color:#d5d5d5; }
 html[data-useragent*="OS 9"] a[id^="btn"] { background-color:#d5d5d5; color:#373837; }
 html[data-useragent*="OS 9"] a[id^="btn"]:hover { background-color:#eee; }
@@ -203,7 +203,7 @@ html[data-useragent*="OS 9"] .plSel:hover { background-color:#eee!important; }
 
 /* Chrome */
 html[data-useragent*="Chrome"] body { color:#5a5a5a; }
-html[data-useragent*="Chrome"] audio { margin-left:9px; width:677px; }
+html[data-useragent*="Chrome"] audio { margin-left:9px; width:100%; }
 html[data-useragent*="Chrome"] #audiowrap { background-color:#fafafa; }
 html[data-useragent*="Chrome"] a[id^="btn"] { background-color:#fafafa; color:#5a5a5a; }
 html[data-useragent*="Chrome"] a[id^="btn"]:hover { background-color:#eee; }
@@ -214,7 +214,7 @@ html[data-useragent*="Chrome"] .plSel:hover { background-color:#eee!important; }
 
 /* Chrome / Android / Tablet */
 html[data-useragent*="Chrome"][data-useragent*="Android"] body { color:#373837; }
-html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:4px; width:689px; }
+html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:4px; width:100%; }
 html[data-useragent*="Chrome"][data-useragent*="Android"] #audiowrap { background-color:#fafafa; }
 html[data-useragent*="Chrome"][data-useragent*="Android"] a[id^="btn"] { background-color:#fafafa; color:#373837; }
 html[data-useragent*="Chrome"][data-useragent*="Android"] a[id^="btn"]:hover { background-color:#eee; }
@@ -228,42 +228,42 @@ html[data-useragent*="Chrome"][data-useragent*="Android"] .plSel:hover { backgro
 ================================================== */
 
 /* Tablet Portrait */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-audio { width:526px; }
-html[data-useragent*="MSIE 9.0"] audio { width:536px; }
-html[data-useragent*="MSIE 10.0"] audio { width:543px; }
-html[data-useragent*="rv:11.0"] audio { width:551px; }
-html[data-useragent*="OS 7"] audio { width:546px; }
-html[data-useragent*="OS 8"] audio { width:550px; }
-html[data-useragent*="OS 9"] audio { width:550px; }
-html[data-useragent*="Chrome"] audio { width:533px; }
-html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:4px; width:545px; }
+@media only screen and (min-width: 100%) and (max-width: 100%) {
+audio { width:100%; }
+html[data-useragent*="MSIE 9.0"] audio { width:100%; }
+html[data-useragent*="MSIE 10.0"] audio { width:100%; }
+html[data-useragent*="rv:11.0"] audio { width:100%; }
+html[data-useragent*="OS 7"] audio { width:100%; }
+html[data-useragent*="OS 8"] audio { width:100%; }
+html[data-useragent*="OS 9"] audio { width:100%; }
+html[data-useragent*="Chrome"] audio { width:100%; }
+html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:4px; width:100%; }
 }
 
 /* Mobile Landscape */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-audio { width:390px; }
-html[data-useragent*="MSIE 9.0"] audio { width:400px; }
-html[data-useragent*="MSIE 10.0"] audio { width:407px; }
-html[data-useragent*="rv:11.0"] audio { width:415px; }
-html[data-useragent*="OS 7"] audio { width:410px; }
-html[data-useragent*="OS 8"] audio { width:414px; }
-html[data-useragent*="OS 9"] audio { width:414px; }
-html[data-useragent*="Chrome"] audio { width:397px; }
-html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px; width:410px; }
+@media only screen and (min-width: 480px) and (max-width: 100%) {
+audio { width:100%; }
+html[data-useragent*="MSIE 9.0"] audio { width:100%; }
+html[data-useragent*="MSIE 10.0"] audio { width:100%; }
+html[data-useragent*="rv:11.0"] audio { width:100%; }
+html[data-useragent*="OS 7"] audio { width:100%; }
+html[data-useragent*="OS 8"] audio { width:100%; }
+html[data-useragent*="OS 9"] audio { width:100%; }
+html[data-useragent*="Chrome"] audio { width:100%; }
+html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px; width:100%; }
 #npTitle { width:245px; }
 }
 
 /* Mobile Portrait */
-@media only screen and (max-width: 479px) {
-audio { width:270px; }
-html[data-useragent*="MSIE 9.0"] audio { width:280px; }
-html[data-useragent*="MSIE 10.0"] audio { width:287px; }
-html[data-useragent*="rv:11.0"] audio { width:295px; }
-html[data-useragent*="OS 7"] audio { width:290px; }
-html[data-useragent*="OS 8"] audio { width:294px; }
-html[data-useragent*="OS 9"] audio { width:294px; }
-html[data-useragent*="Chrome"] audio { width:277px; }
-html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px; width:290px; }
+@media only screen and (max-width: 100%) {
+audio { width:100%; }
+html[data-useragent*="MSIE 9.0"] audio { width:100%; }
+html[data-useragent*="MSIE 10.0"] audio { width:100%; }
+html[data-useragent*="rv:11.0"] audio { width:100%; }
+html[data-useragent*="OS 7"] audio { width:100%; }
+html[data-useragent*="OS 8"] audio { width:100%; }
+html[data-useragent*="OS 9"] audio { width:100%; }
+html[data-useragent*="Chrome"] audio { width:100%; }
+html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px; width:100%; }
 #npTitle { width:167px; }
 }
