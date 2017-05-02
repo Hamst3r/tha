@@ -45,12 +45,11 @@ font-size:100%;
 margin:0;
 padding:0;
 vertical-align:baseline;
-overflow-x: hidden;
 }
 
 body { line-height:1; }
-ul { list-style:none; }
-
+ul { list-style:none; overflow-x: hidden; }
+li { overflow-x: hidden; }
 
 /* Basic Styles
 ================================================== */
