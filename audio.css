@@ -107,10 +107,10 @@ p a,p a:visited { line-height:inherit; }
 ================================================== */
 
 /* Default / Desktop / Firefox */
-audio { margin:0 15px 0 14px; width:670px; }
-#mainwrap { box-shadow:0 0 6px 1px rgba(0,0,0,.25); }
-#audiowrap { background-color:#231F20; margin:0 auto; }
-#plwrap { margin:0 auto; }
+audio { margin:0; width:100%; }
+#mainwrap { }
+#audiowrap { background-color:#880022; margin:0; }
+#plwrap { margin:0; }
 #tracks { position:relative; text-align:center; }
 #nowPlay { display:inline; }
 #npTitle { margin:0; padding:21px; text-align:right; }
