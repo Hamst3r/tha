@@ -2,6 +2,9 @@ Testing this **garbage**.
 
 <div style="text-align: right"><iframe src="audio.html" width="700" height="300" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 
+<script src="https://www.shoutbox.com/chat/chat.js.php"></script>
+<script> var chat = new Chat(9436);</script>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Hamst3r/tha/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
