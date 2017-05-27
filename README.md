@@ -1,4 +1,4 @@
 # tha
 The Hamster Alliance
 
-This is my attempt to make a website on github.
+Website designed by Isaias Lozano (www.wauterboi.com)
