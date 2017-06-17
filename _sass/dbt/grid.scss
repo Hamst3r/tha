@@ -1,0 +1,105 @@
+/*
+    grid.scss
+    --
+    Defines viewport sizes, creates row classes for CSS grid, and creates
+    optional collapsing classes for columns based on max viewport width.
+*/
+
+@import 'fractions.scss';
+
+// Floated block-based grid
+.row.float {
+    display:block;
+    width:100%;
+    .column {
+        float:left;
+    }
+}
+
+.row.float:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+// Table-based grid
+.row.table {
+    display:table;
+    width:100%;
+    .column {
+        display:table-cell;
+        vertical-align:top;
+    }
+}
+
+// Viewport-related code
+$media-s : 800px;
+$media-m : 1024px;
+$media-l : 1366px;
+$media-xl: 1920px;
+
+@mixin media-range($from, $to: min, $device: null) {
+    $size: "";
+    @if $to==min {
+        $size: "(min-width: #{$from}) and (min-height: #{$from / 4 * 3})";
+    }
+    @else if $to==max {
+        $size: "(max-width: #{$from - 1}), (max-height: #{($from / 4 * 3) - 1})";
+    }
+    @else {
+        $size: "(min-width: #{$from}) and (max-width: #{$to - 1})";
+    }
+    @if not $device {
+        @media #{$size} {
+            @content;
+        }
+    }
+    @else {
+        @media #{$device} and #{$size} {
+            @content;
+        }
+    }
+}
+
+// Collapsing columns that make use of the viewport and grid code
+.row.collapse-s {
+    .column {
+        @include media-range($media-s, max) {
+            display:block !important;
+            width:100% !important;
+            float:none !important;
+        }
+    }
+}
+
+.row.collapse-m {
+    .column {
+        @include media-range($media-m, max) {
+            display:block !important;
+            width:100% !important;
+            float:none !important;
+        }
+    }
+}
+
+.row.collapse-l {
+    .column {
+        @include media-range($media-l, max) {
+            display:block !important;
+            width:100% !important;
+            float:none !important;
+        }
+    }
+}
+
+.row.collapse-xl {
+    .column {
+        @include media-range($media-xl, max) {
+            display:block !important;
+            width:100% !important;
+            float:none !important;
+        }
+    }
+}

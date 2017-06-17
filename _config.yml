@@ -1,1 +1,18 @@
-theme: jekyll-theme-midnight
+# Everything in here will be general stuff that probably won't be changed
+# very often.
+
+title: The Hamster Alliance
+subtitle: No genre is safe.
+description: >
+    The Hamster Alliance is a one man music project. The goal of "THA" is to
+    produce awesome and diverse music without constraints.
+
+markdown: kramdown
+include: ['_boxes']
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+sass:
+    sass_dir: _sass
+    style: compressed

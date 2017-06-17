@@ -1,0 +1,50 @@
+/*
+    typography.scss
+    --
+    Small standardization of common text elements.
+*/
+
+html {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, p, ul, ol, blockquote, pre {
+    margin-bottom: 1rem;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+i, em {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+li {
+    margin-left: 2em;
+}
+
+ul li {
+    list-style-type: disc;
+}
+
+ol li {
+    list-style: decimal;
+}
+
+ul.inline, ul.inline li {
+    display: inline;
+    margin: 0;
+}

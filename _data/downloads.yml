@@ -1,0 +1,32 @@
+lists:
+    - title: By Year
+      display: inline
+      downloads:
+        - title: 2017
+          href: http://www.google.com
+        - title: 2016
+          href: http://www.google.com
+        - title: 2015
+          href: http://www.google.com
+        - title: 2014
+          href: http://www.google.com
+        - title: 2013
+          href: http://www.google.com
+        - title: 2012
+          href: http://www.google.com
+        - title: 2011
+          href: http://www.google.com
+        - title: 2010
+          href: http://www.google.com
+        - title: 2009
+          href: http://www.google.com
+        - title: 2008
+          href: http://www.google.com
+        - title: 2008
+          href: http://www.google.com
+        - title: 2008
+          href: http://www.google.com
+    - title: Other Collections
+      downloads:
+        - title: Blue Portal Soundtrack
+          href: http://www.google.com

@@ -1,0 +1,38 @@
+main_links:
+    - title: E-MAIL
+      href: mailto:hamster@hamsteralliance.com
+      desc: "a tomato"
+    - title: TWITTER
+      href: https://twitter.comailto:hamster@hamsteralliance.com
+      desc: "a tomato"
+    - title: FACEBOOK
+      href: https://www.facebook.com/hamsteralliance
+      desc: "a tomato"
+    - title: YOUTUBE
+      href: https://www.youtube.com/user/hamsteralliance
+      desc: "a tomato"
+other_links:
+    - title: MY ANIME LIST
+      href: https://myanimelist.net/profile/hamsteralliance
+      desc: "a tomato"
+    - title: LETTERBOXD
+      href: http://letterboxd.com/hamsteralliance/
+      desc: "a pomato"
+    - title: TRAKT
+      href: https://trakt.tv/users/hamsteralliance/history/shows/plays
+      desc: "a potato"
+    - title: STEAM
+      href: http://steamcommunity.com/id/hamsteralliance
+      desc: "an potato"
+    - title: COMPLETIONATOR
+      href: http://www.completionator.com/Collection/Index/13467?progressStatusIDs=2&isHidden=false&shouldBreakOutCompilationGames=true&sortColumn=GameName&sortDirection=ASC
+      desc: "an potato?"
+    - title: SOUNDCLOUD
+      href: https://soundcloud.com/hamsteralliance
+      desc: "aN pOtAtO?"
+    - title: TUMBLR
+      href: http://hamsteralliance.tumblr.com
+      desc: "AN POTATO?"
+    - title: THA MUSIC ARCHIVE
+      href: http://www.youtube.com/hamsteralliancemusic
+      desc: "AN POTATO!"

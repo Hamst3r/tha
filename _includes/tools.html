@@ -1,0 +1,46 @@
+<div id="tool-table">
+    <div class="row table">
+        <div class="column one half">
+            <div class="cell-inner">
+                <ul>
+                    {% for tool in site.data.tools["AUDIO SOFTWARE"] %}
+                    <li>
+                        {{ tool | markdownify | remove: "<p>" | remove: "</p>" | strip}}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="column one half">
+            <div class="cell-inner">
+                <ul>
+                    {% for tool in site.data.tools["AUDIO HARDWARE"] %}
+                    <li>
+                        {{ tool | markdownify | remove: "<p>" | remove: "</p>" | strip}}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row table">
+        <div class="column one half">
+            <div class="cell-inner">
+                <p>
+                    {% for tool in site.data.tools["AUDIO PLUGINS"] %}
+                    {{ tool | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% if forloop.last == false %}, {% endif %}
+                    {% endfor %}
+                </p>
+            </div>
+        </div>
+        <div class="column one half">
+            <div class="cell-inner">
+                <p>
+                    {% for tool in site.data.tools["SAMPLE LIBRARIES"] %}
+                    {{ tool | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% if forloop.last == false %}, {% endif %}
+                    {% endfor %}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

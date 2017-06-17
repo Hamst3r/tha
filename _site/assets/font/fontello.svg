@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="play" unicode="&#xe800;" d="M772 333l-741-412q-13-7-22-2t-9 20v822q0 14 9 20t22-2l741-412q13-7 13-17t-13-17z" horiz-adv-x="785.7" />
+
+<glyph glyph-name="next" unicode="&#xe801;" d="M25-71q-10-11-18-8t-7 18v822q0 14 7 18t18-8l396-396q5-5 8-10v396q0 14 7 18t18-8l396-396q5-5 7-10v378q0 14 11 25t25 11h71q15 0 25-11t11-25v-786q0-14-11-25t-25-11h-71q-15 0-25 11t-11 25v379q-2-6-7-11l-396-396q-11-11-18-8t-7 18v397q-3-6-8-11z" horiz-adv-x="1000" />
+
+<glyph glyph-name="prev" unicode="&#xe802;" d="M975 771q11 11 18 8t7-18v-822q0-14-7-18t-18 8l-396 396q-5 5-8 11v-397q0-14-7-18t-18 8l-396 396q-5 5-7 11v-379q0-14-11-25t-25-11h-71q-15 0-25 11t-11 25v786q0 14 11 25t25 11h71q15 0 25-11t11-25v-378q2 5 7 10l396 396q11 11 18 8t7-18v-396q3 5 8 10z" horiz-adv-x="1000" />
+
+<glyph glyph-name="pause" unicode="&#xe803;" d="M857 743v-786q0-14-10-25t-26-11h-285q-15 0-25 11t-11 25v786q0 14 11 25t25 11h285q15 0 26-11t10-25z m-500 0v-786q0-14-10-25t-26-11h-285q-15 0-25 11t-11 25v786q0 14 11 25t25 11h285q15 0 26-11t10-25z" horiz-adv-x="857.1" />
+
+<glyph glyph-name="download" unicode="&#xe804;" d="M714 100q0 15-10 25t-25 11-25-11-11-25 11-25 25-11 25 11 10 25z m143 0q0 15-10 25t-26 11-25-11-10-25 10-25 25-11 26 11 10 25z m72 125v-179q0-22-16-37t-38-16h-821q-23 0-38 16t-16 37v179q0 22 16 38t38 16h259l75-76q33-32 76-32t76 32l76 76h259q22 0 38-16t16-38z m-182 318q10-23-8-39l-250-250q-10-11-25-11t-25 11l-250 250q-17 16-8 39 10 21 33 21h143v250q0 15 11 25t25 11h143q14 0 25-11t10-25v-250h143q24 0 33-21z" horiz-adv-x="928.6" />
+
+<glyph glyph-name="listen" unicode="&#xe805;" d="M0 69l0 250q0 207 147 353t353 147 354-147 146-353l0-250q-4-41-35-54t-61 5-29 49l0 250q0 156-109 265t-266 110-266-110-109-265l0-250q-4-41-35-54t-61 5-29 49z m188-157l0 313q0 14 8 22t23 9l62 0q14 0 23-9t9-22l0-313q0-13-9-22t-23-9l-62 0q-14 0-23 9t-8 22z m500 0l0 313q0 14 8 22t23 9l62 0q14 0 23-9t9-22l0-313q0-13-9-22t-23-9l-62 0q-14 0-23 9t-8 22z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

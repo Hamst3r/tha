@@ -1,0 +1,39 @@
+<h2 id="radio-header">THA RADIO</h2>
+<audio id="radio-audio" preload="auto" hidden>
+    You must have JavaScript enabled to listen to THA Radio.
+</audio>
+<div id="radio">
+    <div id="radio-player">
+        <div id="radio-controls">
+            <div id="radio-buttons" class="radio-control">
+                <i class="icon-prev" id="radio-controls-prev"></i>
+                <i class="icon-play" id="radio-controls-play"></i>
+                <i class="icon-next" id="radio-controls-next"></i>
+            </div>
+            <div id="radio-seek" class="radio-control">
+                <div id="radio-seek-current"></div>
+            </div>
+            <div id="radio-time" class="radio-control">
+                <span id="radio-current-time">...</span>
+                -
+                <span id="radio-total-time">...</span>
+            </div>
+        </div>
+    </div>
+    <hr>
+</div>
+<div id="playlist">
+    <ol>
+        {% for track in site.data.radio %}
+        <li>
+            <a href="{{track.location}}" class="select">
+                <i class="indicator"></i>{{track.title}}
+            </a>
+            <a href="{{track.location}}" class="download" download>
+                <i class="icon-download"></i>
+            </a>
+        </li>
+        {% endfor %}
+    </ol>
+</div>
+<hr>

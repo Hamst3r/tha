@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<meta charset="UTF-8">
+<html>
+    {% include html_head.html %}
+    <body>
+        <div id="container">
+            <div id="col-edge" class="column">
+            </div>
+            <div id="col-main" class="column">
+                <div id="header">
+                    {% include header.html %}
+                </div>
+                <div id="boxes">
+                    {% include boxes.html %}
+                </div>
+            </div>
+            <div id="col-panel" class="column">
+                {% include panel.html %}
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,325 @@
+/*
+    fractions.scss
+    --
+    Creates a ton of classes that set the width of columns for the CSS grid.
+
+    ATTENTION!
+    --
+    You shouldn't have to dabble with any of the code below. It's monotonous
+    nonsense that just allows you to use fractions as classes in HTML, i.e.
+    <div class="one half">.
+
+    The only reason I could understand someone messing with the code below is
+    to add more fractions or to see how the fraction classes are designed, but
+    there's nothing really of importance here.
+*/
+
+.row {    
+    >.one.half {
+        width: percentage(1/2);
+    }
+
+    >.one.third {
+        width: percentage(1/3);
+    }
+
+    >.one.fourth {
+        width: percentage(1/4);
+    }
+
+    >.one.fifth {
+        width: percentage(1/5);
+    }
+
+    >.one.sixth {
+        width: percentage(1/6);
+    }
+
+    >.one.seventh {
+        width: percentage(1/7);
+    }
+
+    >.one.eighth {
+        width: percentage(1/8);
+    }
+
+    >.one.ninth {
+        width: percentage(1/9);
+    }
+
+    >.one.tenth {
+        width: percentage(1/10);
+    }
+
+    >.one.eleventh {
+        width: percentage(1/11);
+    }
+
+    >.one.twelfth {
+        width: percentage(1/12);
+    }
+
+    >.two.halves {
+        width: percentage(1/2) * 2;
+    }
+
+    >.two.thirds {
+        width: percentage(1/3) * 2;
+    }
+
+    >.two.fourths {
+        width: percentage(1/4) * 2;
+    }
+
+    >.two.fifths {
+        width: percentage(1/5) * 2;
+    }
+
+    >.two.sixths {
+        width: percentage(1/6) * 2;
+    }
+
+    >.two.sevenths {
+        width: percentage(1/7) * 2;
+    }
+
+    >.two.eighths {
+        width: percentage(1/8) * 2;
+    }
+
+    >.two.ninths {
+        width: percentage(1/9) * 2;
+    }
+
+    >.two.tenths {
+        width: percentage(1/10) * 2;
+    }
+
+    >.two.elevenths {
+        width: percentage(1/11) * 2;
+    }
+
+    >.two.twelfths {
+        width: percentage(1/12) * 2;
+    }
+
+    >.three.thirds {
+        width: percentage(1/3) * 3;
+    }
+
+    >.three.fourths {
+        width: percentage(1/4) * 3;
+    }
+
+    >.three.fifths {
+        width: percentage(1/5) * 3;
+    }
+
+    >.three.sixths {
+        width: percentage(1/6) * 3;
+    }
+
+    >.three.sevenths {
+        width: percentage(1/7) * 3;
+    }
+
+    >.three.eighths {
+        width: percentage(1/8) * 3;
+    }
+
+    >.three.ninths {
+        width: percentage(1/9) * 3;
+    }
+
+    >.three.tenths {
+        width: percentage(1/10) * 3;
+    }
+
+    >.three.elevenths {
+        width: percentage(1/11) * 3;
+    }
+
+    >.three.twelfths {
+        width: percentage(1/12) * 3;
+    }
+
+    >.four.fourths {
+        width: percentage(1/4) * 4;
+    }
+
+    >.four.fifths {
+        width: percentage(1/5) * 4;
+    }
+
+    >.four.sixths {
+        width: percentage(1/6) * 4;
+    }
+
+    >.four.sevenths {
+        width: percentage(1/7) * 4;
+    }
+
+    >.four.eighths {
+        width: percentage(1/8) * 4;
+    }
+
+    >.four.ninths {
+        width: percentage(1/9) * 4;
+    }
+
+    >.four.tenths {
+        width: percentage(1/10) * 4;
+    }
+
+    >.four.elevenths {
+        width: percentage(1/11) * 4;
+    }
+
+    >.four.twelfths {
+        width: percentage(1/12) * 4;
+    }
+
+    >.five.fifths {
+        width: percentage(1/5) * 5;
+    }
+
+    >.five.sixths {
+        width: percentage(1/6) * 5;
+    }
+
+    >.five.sevenths {
+        width: percentage(1/7) * 5;
+    }
+
+    >.five.eighths {
+        width: percentage(1/8) * 5;
+    }
+
+    >.five.ninths {
+        width: percentage(1/9) * 5;
+    }
+
+    >.five.tenths {
+        width: percentage(1/10) * 5;
+    }
+
+    >.five.elevenths {
+        width: percentage(1/11) * 5;
+    }
+
+    >.five.twelfths {
+        width: percentage(1/12) * 5;
+    }
+
+    >.six.sixths {
+        width: percentage(1/6) * 6;
+    }
+
+    >.six.sevenths {
+        width: percentage(1/7) * 6;
+    }
+
+    >.six.eighths {
+        width: percentage(1/8) * 6;
+    }
+
+    >.six.ninths {
+        width: percentage(1/9) * 6;
+    }
+
+    >.six.tenths {
+        width: percentage(1/10) * 6;
+    }
+
+    >.six.elevenths {
+        width: percentage(1/11) * 6;
+    }
+
+    >.six.twelfths {
+        width: percentage(1/12) * 6;
+    }
+
+    >.seven.sevenths {
+        width: percentage(1/7) * 7;
+    }
+
+    >.seven.eighths {
+        width: percentage(1/8) * 7;
+    }
+
+    >.seven.ninths {
+        width: percentage(1/9) * 7;
+    }
+
+    >.seven.tenths {
+        width: percentage(1/10) * 7;
+    }
+
+    >.seven.elevenths {
+        width: percentage(1/11) * 7;
+    }
+
+    >.seven.twelfths {
+        width: percentage(1/12) * 7;
+    }
+
+    >.eight.eighths {
+        width: percentage(1/8) * 8;
+    }
+
+    >.eight.ninths {
+        width: percentage(1/9) * 8;
+    }
+
+    >.eight.tenths {
+        width: percentage(1/10) * 8;
+    }
+
+    >.eight.elevenths {
+        width: percentage(1/11) * 8;
+    }
+
+    >.eight.twelfths {
+        width: percentage(1/12) * 8;
+    }
+
+    >.nine.ninths {
+        width: percentage(1/9) * 9;
+    }
+
+    >.nine.tenths {
+        width: percentage(1/10) * 9;
+    }
+
+    >.nine.elevenths {
+        width: percentage(1/11) * 9;
+    }
+
+    >.nine.twelfths {
+        width: percentage(1/12) * 9;
+    }
+
+    >.ten.tenths {
+        width: percentage(1/10) * 10;
+    }
+
+    >.ten.elevenths {
+        width: percentage(1/11) * 10;
+    }
+
+    >.ten.twelfths {
+        width: percentage(1/12) * 10;
+    }
+
+    >.eleven.elevenths {
+        width: percentage(1/10) * 11;
+    }
+
+    >.eleven.twelfths {
+        width: percentage(1/12) * 11;
+    }
+
+    >.twelve.twelfths, .full-width {
+        width: percentage(1/12) * 12;
+    }
+}

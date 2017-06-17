@@ -1,0 +1,29 @@
+{% assign sorted_boxes = site.pages | sort:"name" %}
+{% for box in sorted_boxes %}
+    {% comment %}
+        Check if potential textbox is actually a textbox
+    {% endcomment %}
+    {% if box.is_box %}
+        <div
+            class="box"
+            {% if box.id %}
+                id="box-{{box.id}}"
+            {% endif %}
+        >
+            <h2>{{ box.title }}</h2>
+            {% comment %}
+                Check if box is a dynamic box that takes in no
+                user markdown and instead transforms data files
+                or presents alternate html
+            {% endcomment %}
+            {% if box.id == "tools" %}
+                {% include tools.html %}
+            {% elsif box.id == "shoutbox" %}
+                {% include shoutbox.html %}
+            {% else %}
+                {{ box.content }}
+            {% endif %}
+        </div>
+    {% endif %}
+{% endfor %}
+

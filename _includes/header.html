@@ -1,0 +1,12 @@
+<h1 class="site-title">{{ site.title | upcase }}</h1>
+<h3 class="site-subtitle">{{ site.subtitle | upcase }}</h3>
+<hr>
+<ul id="main-links" class="links">
+    {% for link in site.data.links.main_links %}
+        <li>
+            <a href="{{ link.href }}" title="{{ link.desc }}">[{{ link.title }}]</a>
+        </li>
+    {% endfor %}
+</ul>
+<hr>
+{% include other_links.html %}
