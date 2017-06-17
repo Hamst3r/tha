@@ -138,7 +138,7 @@ class radio {
 $(document).ready(function() {
     radio.init();
     $('#panel-links .other-links').find('li a').hover(function() {
-        $('.other-links-promo').text($(this).attr('title'));
+        $('.other-links-promo').text($(this).data('desc');
     }, function() {
         $('.other-links-promo').text('Follow me around the internet.');
     });
