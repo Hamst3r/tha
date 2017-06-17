@@ -32,7 +32,10 @@ lists:
           href: http://www.google.com
         - title: 2003
           href: http://www.google.com
+        - title: 2002 & Older
+          href: http://www.google.com
     - title: Other Collections
+      display: inline
       downloads:
         - title: Aperture Déjà Vu
           href: http://www.google.com
