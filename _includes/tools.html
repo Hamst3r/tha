@@ -3,6 +3,7 @@
         <div class="column one half">
             <div class="cell-inner">
                 <ul>
+                    <h3>AUDIO SOFTWARE</h3>
                     {% for tool in site.data.tools["AUDIO SOFTWARE"] %}
                     <li>
                         {{ tool | markdownify | remove: "<p>" | remove: "</p>" | strip}}
@@ -14,6 +15,7 @@
         <div class="column one half">
             <div class="cell-inner">
                 <ul>
+                    <h3>AUDIO HARDWARE</h3>
                     {% for tool in site.data.tools["AUDIO HARDWARE"] %}
                     <li>
                         {{ tool | markdownify | remove: "<p>" | remove: "</p>" | strip}}
@@ -26,6 +28,7 @@
     <div class="row table">
         <div class="column one half">
             <div class="cell-inner">
+                <h3>AUDIO PLUGINS</h3>
                 <p>
                     {% for tool in site.data.tools["AUDIO PLUGINS"] %}
                     {{ tool | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% if forloop.last == false %}, {% endif %}
@@ -35,6 +38,7 @@
         </div>
         <div class="column one half">
             <div class="cell-inner">
+                <h3>SAMPLE LIBRARIES</h3>
                 <p>
                     {% for tool in site.data.tools["SAMPLE LIBRARIES"] %}
                     {{ tool | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% if forloop.last == false %}, {% endif %}
