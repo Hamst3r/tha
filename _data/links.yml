@@ -1,38 +1,32 @@
 main_links:
     - title: E-MAIL
       href: mailto:hamster@hamsteralliance.com
-      desc: "a tomato"
+      desc: "Send me an email"
     - title: TWITTER
       href: https://twitter.comailto:hamster@hamsteralliance.com
-      desc: "a tomato"
+      desc: "Follow me on Twitter"
     - title: FACEBOOK
       href: https://www.facebook.com/hamsteralliance
-      desc: "a tomato"
+      desc: "My personal Facebook"
     - title: YOUTUBE
       href: https://www.youtube.com/user/hamsteralliance
-      desc: "a tomato"
+      desc: "Check out my videos"
 other_links:
     - title: MY ANIME LIST
       href: https://myanimelist.net/profile/hamsteralliance
-      desc: "a tomato"
+      desc: "See what anime I've watched or intend to watch."
     - title: LETTERBOXD
       href: http://letterboxd.com/hamsteralliance/
-      desc: "a pomato"
+      desc: "A record of my movie watching life."
     - title: TRAKT
       href: https://trakt.tv/users/hamsteralliance/history/shows/plays
-      desc: "a potato"
+      desc: "A list of all the TV shows I've seen."
     - title: STEAM
       href: http://steamcommunity.com/id/hamsteralliance
-      desc: "an potato"
+      desc: "Add me on Steam."
     - title: COMPLETIONATOR
       href: http://www.completionator.com/Collection/Index/13467?progressStatusIDs=2&isHidden=false&shouldBreakOutCompilationGames=true&sortColumn=GameName&sortDirection=ASC
-      desc: "an potato?"
-    - title: SOUNDCLOUD
-      href: https://soundcloud.com/hamsteralliance
-      desc: "aN pOtAtO?"
-    - title: TUMBLR
-      href: http://hamsteralliance.tumblr.com
-      desc: "AN POTATO?"
+      desc: "My game collection & what I've completed."
     - title: THA MUSIC ARCHIVE
       href: http://www.youtube.com/hamsteralliancemusic
-      desc: "AN POTATO!"
+      desc: "An archive of more of my music on Youtube."
