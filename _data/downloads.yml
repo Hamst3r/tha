@@ -34,20 +34,22 @@ lists:
           href: http://www.google.com
         - title: 2002 & Older
           href: http://www.google.com
-    - title: Other Collections
+    - title: Portal Collections
       display: inline
       downloads:
         - title: Aperture Déjà Vu
           href: http://www.google.com
         - title: Blue Portals
           href: http://www.google.com
+        - title: Portal Inspired Music
+          href: http://www.google.com
+        - title: Portal Prelude
+          href: http://www.google.com
+    - title: Other Collections
+      display: inline
+      downloads:
         - title: ezmuze+ Hamst3r edition
           href: http://www.google.com
         - title: Gun Mayhem 2
           href: http://www.google.com
         - title: Johnny Rocketfingers 2
-          href: http://www.google.com
-        - title: Misc. Portal Inspired Music
-          href: http://www.google.com
-        - title: Portal Prelude
-          href: http://www.google.com
