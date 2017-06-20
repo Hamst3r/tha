@@ -13,16 +13,17 @@ lists:
         - title: 2013
           href: https://www.dropbox.com/s/zu4yuytc9zocvr6/2013.zip?dl=1
         - title: 2012
-          href: http://www.google.com
+          href: https://www.dropbox.com/s/sh347wrntmobinr/2012.zip?dl=1
         - title: 2011
-          href: http://www.google.com
+          href: https://www.dropbox.com/s/sc015x904b4ltny/2011.zip?dl=1
         - title: 2010
-          href: http://www.google.com
+          href: https://www.dropbox.com/s/kv8gjdkvw1rswmu/2010.zip?dl=1
         - title: 2000's
-          href: http://www.google.com
+          href: https://www.dropbox.com/s/ohra19kepckfc8c/2000s.zip?dl=1
         - title: 1990's
-          href: http://www.google.com
+          href: https://www.dropbox.com/s/yoz16r10c9lbh4a/1990s.zip?dl=1
     - title: Other Collections
+      display: inline
       downloads:
         - title: Aperture Déjà Vu
           href: https://www.dropbox.com/s/8n04r6224lgwqe8/THA-aperturedejavu.zip?dl=1
@@ -32,12 +33,16 @@ lists:
           href: https://www.dropbox.com/s/hwrhgp1a77z3o5w/THA-blueportals.zip?dl=1
         - title: Ezmuze Demos
           href: https://www.dropbox.com/s/vhryeh8w5ta0wgq/THA-ezmuze.zip?dl=1
+        - title: Giant Bomb Things
+          href: https://www.dropbox.com/s/5wcdqfm6k8mvu40/THA-giantbomb.zip?dl=1
         - title: Gun Mayhem 2
           href: https://www.dropbox.com/s/ud08rg2qkf6ci1t/THA-gunmayhem2.zip?dl=1
         - title: Johnny Rocketfingers 2
           href: https://www.dropbox.com/s/uy177umv3fsezy3/THA-johnnyrocketfingers2.zip?dl=1
         - title: Maximum Street DVD
           href: https://www.dropbox.com/s/n9etb98xnjhk0xf/THA-maximumstreet.zip?dl=1
+        - title: Miscellaneous Stuff
+          href: https://www.dropbox.com/s/y4eduyp1ndenrz9/THA-miscellaneous.zip?dl=1
         - title: Portal Inspired Music
           href: https://www.dropbox.com/s/3ktnexp5ngqzxb5/THA-portalinspiredmusic.zip?dl=1
         - title: Portal Prelude
