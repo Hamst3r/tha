@@ -4,7 +4,11 @@
         <h3>{{ list.title }}</h3>
         <ul
         {% if list.display == "inline" %}
-            class="inline-downloads"
+            {% if list.title == "By Year" %}
+                class="inline-downloads eight-col"
+            {% else %}
+                class="inline-downloads"
+            {% endif %}
         {% endif %}
         >
         {% assign count = 0 %}
