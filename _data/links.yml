@@ -11,6 +11,9 @@ main_links:
     - title: YOUTUBE
       href: https://www.youtube.com/user/hamsteralliance
       desc: "Check out my videos"
+    - title: MESSAGE ME
+      href: #shoutbox
+      desc: Leave a message in the Shoutbox
 other_links:
     - title: MY ANIME LIST
       href: https://myanimelist.net/profile/hamsteralliance
@@ -27,6 +30,6 @@ other_links:
     - title: COMPLETIONATOR
       href: http://www.completionator.com/Collection/Index/13467?progressStatusIDs=2&isHidden=false&shouldBreakOutCompilationGames=true&sortColumn=GameName&sortDirection=ASC
       desc: "My game collection and what I've completed."
-    - title: THA MUSIC ARCHIVE
+    - title: MUSIC ARCHIVE
       href: https://www.youtube.com/hamsteralliancemusic
       desc: "An archive with more of my music on Youtube."
