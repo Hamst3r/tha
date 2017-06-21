@@ -23,6 +23,7 @@ lists:
         - title: 1990's
           href: https://www.dropbox.com/s/yoz16r10c9lbh4a/1990s.zip?dl=1
     - title: Other Collections
+      display: inline
       downloads:
         - title: Biplanes HD
           href: https://www.dropbox.com/s/rzf7w7eqryr1czt/THA-biplanesHD.zip?dl=1
