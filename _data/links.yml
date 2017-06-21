@@ -12,7 +12,7 @@ main_links:
       href: https://www.youtube.com/user/hamsteralliance
       desc: "Check out my videos"
     - title: MESSAGE ME
-      href: #shoutbox
+      href: http://www.hamsteralliance.com#shoutbox
       desc: Leave a message in the Shoutbox
 other_links:
     - title: MY ANIME LIST
