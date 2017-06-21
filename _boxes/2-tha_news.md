@@ -8,5 +8,5 @@ For those of you who post in the Shoutbox, it's down below now. There's a [Shout
 above this that'll take you down to it.
 
 It's quite a change, but I really wanted a smaller, simpler website. So now, it's just this one page with some info about me,
-some links, a shoutbox, a music player, and downloads. Check out the new downloads, entirely new packs, reorganized, renamed, and
-added onto. The old THA Collection was around 175 tracks. This new collection is around 500.
+some links, a shoutbox, a music player, and downloads. Also, do check out the new downloads, there's so much new stuff in there, both
+old and new, that you've never heard before.
