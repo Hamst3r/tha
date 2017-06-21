@@ -16,7 +16,7 @@
             {% assign count = count | plus: 1 %}
             <li><a href="{{ dl.href }}">{{ dl.title }}</a></li>
         {% endfor %}
-        {% assign count_mod = count | modulo:3 %}
+        {% assign count_mod = count | modulo:2 %}
         {% if count_mod != 0 and list.display == "inline" %}
             {% assign needed = count_mod %}
             {% for num in (1...needed) %}
