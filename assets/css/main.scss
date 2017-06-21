@@ -483,10 +483,16 @@ $grid-unit: percentage(1/15);
     li {
         display:block;
         float:left;
-        margin:0;
+        margin:0 0 1em 0;
         padding:0;
         width:percentage(1/3);
         text-align:center;
+    }
+}
+
+.eight-col {
+    li {
+        width:percentage(1/8);
     }
 }
 
