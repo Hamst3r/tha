@@ -1,6 +1,6 @@
 ---
-title: UPDATE
-id: about     # tells Jekyll to use special styling, don't change
+title: THA UPDATE
+id:      # tells Jekyll to use special styling, don't change
 is_box: true  # tells Jekyll that this is a box, don't change
 ---
 Hey! Check it out, it's a new website! Still working out some of the kinks, but the radio player over on the right,
