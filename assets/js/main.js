@@ -3,6 +3,7 @@ var playlist;
 
 index    = 0;
 paused   = true;
+shuffle  = false;
 duration = 0;
 loaded   = false;
 
@@ -34,6 +35,7 @@ class radio {
         });
         $('#radio-controls-prev').click(radio.prev);
         $('#radio-controls-play').click(radio.play);
+        $('#radio-controls-shuffle').click(radio.shuffle);
         $('#radio-controls-next').click(radio.next);
         $('#radio-seek').click(radio.seek);
 
@@ -50,8 +52,12 @@ class radio {
     }
     static select(track, callback=undefined) {
         radio.setInfo(track);
-        
         index = $(track).parent().index();
+        $('#playlist').animate({
+            scrollTop: $(track).parent().offset().top - $('#playlist ol').offset().top
+        }, 250);
+
+        console.log($(track).parent().position().top - $('#playlist ol').offset().top);
 
         // TODO: Remove the hamsteralliance.com prefix
         audio.src   = $(track).attr('href');
@@ -83,7 +89,15 @@ class radio {
             $('#radio-controls-play').removeClass('icon-pause').addClass('icon-play');
         }
     }
-
+    static shuffle() {
+        if (shuffle) {
+            shuffle = false;
+            $('#radio-controls-shuffle').removeClass('icon-order').addClass('icon-shuffle');
+        } else {
+            shuffle = true;
+            $('#radio-controls-shuffle').removeClass('icon-shuffle').addClass('icon-order');
+        }
+    }
     static shift(direction) {
         if (index + direction < 0) {
             radio.select(playlist[playlist.length - 1], radio.listen);
@@ -97,11 +111,25 @@ class radio {
     }
 
     static prev() {
-        radio.shift(-1);
+        if (audio.currentTime < 3) {
+            if (shuffle) {
+                var target = $('#playlist ol').find('li').eq(Math.floor(Math.random() * playlist.length ) + 1).find('.select');
+                radio.select(target, radio.listen);
+            } else {
+                radio.shift(-1);
+            }
+        } else {
+            audio.currentTime = 0;
+        }
     }
 
     static next() {
-        radio.shift(1);
+        if (shuffle) {
+            var target = $('#playlist ol').find('li').eq(Math.floor(Math.random() * playlist.length ) + 1).find('.select');
+            radio.select(target, radio.listen);
+        } else {
+            radio.shift(1);
+        }
     }
     
     static seek(e) {
