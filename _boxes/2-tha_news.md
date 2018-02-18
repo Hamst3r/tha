@@ -1,7 +1,12 @@
 ---
-title: November 02, 2017
+title: February 17, 2018 - Battle Disco
 is_box: true  # tells Jekyll that this is a box, don't change
 ---
+
+New track: **Battle Disco**! Took me a while to write this one as I just had no idea where I wanted to go with it. Finally things started to click and make sense, and here we are. Brass, strings, slap bass, lasers, bells, Moog synths, and a lot of dancey Disco flare.
+
+November 02,2017:
+
 Hey! New stuff in the ever-expanding downloads as of November 2nd 2017. For simplicity, the following will be not only a list but direct downloads for the new inclusions:
 
 * Biplanes HD = [Lounge Music](https://www.dropbox.com/s/0ve7upb39264tkc/THA-loungemusic.mp3?dl=1)
