@@ -8,6 +8,10 @@
                     <li>
                         {{ tool | markdownify | remove: "<p>" | remove: "</p>" | strip}}
                     </li>
+                    {% for link in site.data.tools["AUDIO SOFTWARE"] % %}
+  <li>
+    <a {% if link.url == page.url %}class="active"{% endif %} href="{{ link.url }}">{{ link.text }}</a>
+  </li>
                     {% endfor %}
                 </ul>
             </div>
