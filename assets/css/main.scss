@@ -3,23 +3,6 @@
 
 @import 'dbt/base.scss';
 
-/* Hamst3r's new menu thing */
-
-// input#menu {
-//    display: none;
-// }
-
-.menu {
-    max-height: 0%;
-    padding: 0 0 0 0px;
-    overflow: hidden;
-}
-
-/* Toggle Effect */
-input:checked ~ menu {
-    max-height: 100%;
-}
-
 /* Colors */
 
 $BG-1:#262c31;
