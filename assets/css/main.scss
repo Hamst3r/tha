@@ -15,7 +15,7 @@ input#menu {
 }
 
 /* Toggle Effect */
-input:checked ~ .menu-content {
+input:checked ~ #downloads {
     max-height: 100%;
 }
 
