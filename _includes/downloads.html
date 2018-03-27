@@ -4,6 +4,7 @@
         <h3>{{ list.title }}</h3>
             <input type="checkbox" id="menu">
             <label for="menu">Menu</label>
+            <div class="menu-content">
         <ul
         {% if list.display == "inline" %}
             {% if list.title == "By Year" %}
@@ -26,6 +27,7 @@
             {% endfor %}
         {% endif %}
         <div class="clearfix"></div>
+            </div>
         </ul>    
     {% endfor %}
 <hr>
