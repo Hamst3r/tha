@@ -3,6 +3,12 @@
 
 @import 'dbt/base.scss';
 
+/* Hamst3r's new menu thing */
+
+input#menu {
+    display: none;
+}
+
 /* Colors */
 
 $BG-1:#262c31;
