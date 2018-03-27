@@ -9,6 +9,16 @@ input#menu {
     display: none;
 }
 
+#downloads {
+    max-height: 0%;
+    overflow: hidden;
+}
+
+/* Toggle Effect */
+input:checked ~ .menu-content {
+    max-height: 100%;
+}
+
 /* Colors */
 
 $BG-1:#262c31;
