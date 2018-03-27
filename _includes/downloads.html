@@ -1,10 +1,11 @@
 <div id="downloads">
     <h2>THA DOWNLOADS</h2>
     {% for list in site.data.downloads.lists %}
-        <h3>{{ list.title }}</h3>
+        <h3>
             <input type="checkbox" id="menu">
-            <label for="menu">Menu</label>
+            <label for="menu">{{ list.title }}</label>
             <div class="menu-content">
+        </h3>
         <ul
         {% if list.display == "inline" %}
             {% if list.title == "By Year" %}
