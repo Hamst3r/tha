@@ -9,13 +9,13 @@ input#menu {
     display: none;
 }
 
-#downloads {
+inline-downloads eight-col {
     max-height: 0%;
     overflow: hidden;
 }
 
 /* Toggle Effect */
-input:checked ~ #downloads {
+input:checked ~ inline-downloads eight-col {
     max-height: 100%;
 }
 
