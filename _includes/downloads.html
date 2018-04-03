@@ -1,8 +1,8 @@
-<div class="downloads">
+<div id="downloads">
     <h2>THA DOWNLOADS</h2>
     {% for list in site.data.downloads.lists %}
-    <div id="collapsible-menu">
-    <input type="checkbox" class="menu">
+    <div class="collapsible-menu">
+    <input type="checkbox" id="menu">
         <label for="menu"><h3>{{ list.title }}</h3></label>
         <div class="menu-content">
         <ul
