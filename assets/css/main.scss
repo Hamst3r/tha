@@ -3,6 +3,24 @@
 
 @import 'dbt/base.scss';
 
+/* Hamst3r's collapsible menu addition */
+
+.collapsible-menu label {
+    cursor: pointer;
+}
+input#menu {
+    display: none;
+}
+
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+}
+/* Toggle Effect */
+input:checked ~ .menu-content {
+    max-height: 100%;
+}
+
 /* Colors */
 
 $BG-1:#262c31;
