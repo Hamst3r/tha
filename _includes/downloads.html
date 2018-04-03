@@ -1,10 +1,7 @@
 <div id="downloads">
     <h2>THA DOWNLOADS</h2>
-    <div class="collapsible-menu">
     {% for list in site.data.downloads.lists %}
-        <input type="checkbox" id="newmenu">
-        <label for="newmenu"><h3>{{ list.title }}</h3></label>
-        <div class="menu-content">
+    <h3>{{ list.title }}</h3>
         <ul
         {% if list.display == "inline" %}
             {% if list.title == "By Year" %}
