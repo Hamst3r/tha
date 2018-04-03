@@ -1,15 +1,13 @@
-<div id="downloads">
+<div class="downloads">
     <h2>THA DOWNLOADS</h2>
     {% for list in site.data.downloads.lists %}
         <h3>{{ list.title }}</h3>
         <ul
         {% if list.display == "inline" %}
             {% if list.title == "By Year" %}
-                class="inline-downloads eight-col">
-            <input type="checkbox" id="menu 1">
+                class="inline-downloads eight-col"
             {% else %}
-                class="inline-downloads">
-            <input type="checkbox" id="menu 2">
+                class="inline-downloads"
             {% endif %}
         {% endif %}
         >
