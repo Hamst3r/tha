@@ -1,8 +1,8 @@
-<b>AUDIO SOFTWARE:</b>
-    - <a href="https://www.reaper.fm/">Cockos Reaper 4</a> _(2011 - current)_
-    - <a href="http://jeskola.net/buzz/">Jeskola Buzz</a> _(1998 - 2011)_
-    - <a href="http://www.amazon.com/dp/B00E3L300E?tag=thehamsalli-20">Sony Sound Forge 11</a>
-    - <a href="http://www.amazon.com/dp/B002Z9E848?tag=thehamsalli-20">Celemony Melodyne 4</a>
+# AUDIO SOFTWARE:
+* [Cockos Reaper 4](https://www.reaper.fm/) _(2011 - current)_
+<a href="http://jeskola.net/buzz/">Jeskola Buzz</a> _(1998 - 2011)_
+<a href="http://www.amazon.com/dp/B00E3L300E?tag=thehamsalli-20">Sony Sound Forge 11</a>
+<a href="http://www.amazon.com/dp/B002Z9E848?tag=thehamsalli-20">Celemony Melodyne 4</a>
 AUDIO HARDWARE:
     - <a href="http://www.amazon.com/dp/B000QDF3G2?tag=thehamsalli-20">Samson C03U Mic</a>
     - <a href="http://www.amazon.com/dp/B00466HLXI?tag=thehamsalli-20">Alesis Q25 Keyboard</a>
