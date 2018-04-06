@@ -3,7 +3,7 @@
 title: "THA Studio"
 output: 
   html_document:
-     css: /assets/css/main.scss
+     css: /assets/css/standalone.scss
      
 ---
 
