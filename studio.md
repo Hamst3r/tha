@@ -1,9 +1,4 @@
----
-layout: studio
----
-
-
-AUDIO SOFTWARE:
+<b>AUDIO SOFTWARE:</b>
     - <a href="https://www.reaper.fm/">Cockos Reaper 4</a> _(2011 - current)_
     - <a href="http://jeskola.net/buzz/">Jeskola Buzz</a> _(1998 - 2011)_
     - <a href="http://www.amazon.com/dp/B00E3L300E?tag=thehamsalli-20">Sony Sound Forge 11</a>
