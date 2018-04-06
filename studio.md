@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 AUDIO SOFTWARE:
     - <a href="https://www.reaper.fm/">Cockos Reaper 4</a> _(2011 - current)_
     - <a href="http://jeskola.net/buzz/">Jeskola Buzz</a> _(1998 - 2011)_
