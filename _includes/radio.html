@@ -26,10 +26,11 @@
 <div id="playlist">
     <ol>
         {% for track in site.data.radio %}
-        <li>
-            <a href="{{track.location}}" class="select">
-                <i class="indicator"></i>{{track.title}}
+        <li property="track" typeof="MusicRecording" itemtype="http://schema.org/MusicRecording">
+            <a href="{{track.location}}" class="select" property="audio">
+                <i class="indicator"></i><span property="name">{{track.title}}</span>
             </a>
+            <meta property="url" content ="{{track.location}}">
             <a href="{{track.location}}" class="download" download>
                 <i class="icon-download"></i>
             </a>
