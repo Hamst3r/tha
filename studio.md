@@ -1,10 +1,5 @@
----
-
-title: "THA Studio"
-output: 
-  html_document
-  
----
+<html>
+  <body>
 
 # AUDIO SOFTWARE:
 * [Cockos Reaper 4](https://www.reaper.fm/) _(2011 - current)_
