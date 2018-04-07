@@ -2,9 +2,8 @@
 
 title: "THA Studio"
 output: 
-  html_document:
-     css: /assets/css/standalone.scss
-     
+  html_document
+  
 ---
 
 # AUDIO SOFTWARE:
