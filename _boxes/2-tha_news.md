@@ -1,18 +1,12 @@
 ---
-title: February 17, 2018 - Battle Disco
+title: May 19, 2018 - Remixes!
 is_box: true  # tells Jekyll that this is a box, don't change
 ---
 
+Hey! Got two new tunes for ya. A remix of the Stargrave boss battle music from KISS: Psycho Circus: The Nightmare Child, and a remix of the music from the final level of Marathon.
+
+The Stargrave remix is a raucous Metal affair that turns into a Drum and Bass banger. The Marathon remix, Splash, is a more Synthwave-y deal with big 80's drums and an aggressive FM bass.
+
+February 17, 2018 - Battle Disco
+
 New track: **Battle Disco**! Took me a while to write this one as I just had no idea where I wanted to go with it. Finally things started to click and make sense, and here we are. Brass, strings, slap bass, lasers, bells, Moog synths, and a lot of dancey Disco flare.
-
-November 02,2017:
-
-Hey! New stuff in the ever-expanding downloads as of November 2nd 2017. For simplicity, the following will be not only a list but direct downloads for the new inclusions:
-
-* Biplanes HD = [Lounge Music](https://www.dropbox.com/s/0ve7upb39264tkc/THA-loungemusic.mp3?dl=1)
-* Giant Bomb = [GB Extra Life 2017](https://www.dropbox.com/s/tobfr29f9qux5r9/THA-gbextralife2017.mp3?dl=1)
-* 2000's\2001 = [Dust](https://www.dropbox.com/s/sfqfnr5go24rpyx/THA-dust.mp3?dl=1)
-* 2000's\2008 = [Mission Critical](https://www.dropbox.com/s/4qiiek20lncyl9a/THA-missioncritical.mp3?dl=1)
-* 2000's\2009 = [Free Consultation](https://www.dropbox.com/s/96oit4koe4ykcb0/THA-freeconsultation.mp3?dl=1)
-* 2011 = [Insane Bash Theme](https://www.dropbox.com/s/ipu5a9sqlorvgm6/THA-insanebash.mp3?dl=1)
-* 2012 = [Deer Chaser (Metal Version)](https://www.dropbox.com/s/hrwtura8okx14i8/THA-deerchaser_metalversion.mp3?dl=1)
