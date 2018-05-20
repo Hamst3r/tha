@@ -2,6 +2,8 @@ lists:
     - title: By Year
       display: inline
       downloads:
+        - title: 2018
+          href: https://www.dropbox.com/s/ijih9nawc1btcfv/2017.zip?dl=1
         - title: 2017
           href: https://www.dropbox.com/s/jfct8g9tk59ipns/2017.zip?dl=1
         - title: 2016
