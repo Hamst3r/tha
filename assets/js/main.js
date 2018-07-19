@@ -57,8 +57,6 @@ class radio {
             scrollTop: $(track).parent().offset().top - $('#playlist ol').offset().top
         }, 250);
 
-        console.log($(track).parent().position().top - $('#playlist ol').offset().top);
-
         // TODO: Remove the hamsteralliance.com prefix
         audio.src   = $(track).attr('href');
         audio.load();
@@ -169,5 +167,24 @@ $(document).ready(function() {
         $('.other-links-promo').text($(this).data('desc'));
     }, function() {
         $('.other-links-promo').text('Follow me around the internet.');
+    });
+
+    $('.expand').addClass('inactive');
+    $('.dl-section').hide();
+    $('.expand').on("click", (event) => {
+        let parent = $(event.target).closest('.dl-area');
+        let section = parent.find('.dl-section');
+        let expander = $(event.target);
+        section.toggle();
+        if (section.css('display') == 'none')
+        {
+            expander.removeClass('active');
+            expander.addClass('inactive');
+        }
+        else
+        {
+            expander.removeClass('inactive');
+            expander.addClass('active');
+        }
     });
 });

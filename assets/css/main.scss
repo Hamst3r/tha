@@ -490,6 +490,14 @@ $grid-unit: percentage(1/15);
     }
 }
 
+.expand.active::before {
+    content:"[-]";
+}
+
+.expand.inactive::before {
+    content:"[+]";
+}
+
 .eight-col {
     li {
         width:percentage(1/8);

@@ -1,13 +1,14 @@
 <div id="downloads">
     <h2>THA DOWNLOADS</h2>
     {% for list in site.data.downloads.lists %}
-    <h3>{{ list.title }}</h3>
+    <div id="dl-{{ list.slug }}" class="dl-area">
+        <h3>{{ list.title }} <a class="expand"></a></h3>
         <ul
         {% if list.display == "inline" %}
             {% if list.title == "By Year" %}
-                class="inline-downloads eight-col"
+                class="inline-downloads eight-col dl-section"
             {% else %}
-                class="inline-downloads"
+                class="inline-downloads dl-section"
             {% endif %}
         {% endif %}
         >
@@ -17,6 +18,7 @@
             <li><a href="{{ dl.href }}">{{ dl.title }}</a></li>
         {% endfor %}
         <div class="clearfix"></div>
-        </ul>    
+        </ul>
+    </div>
     {% endfor %}
 <hr>

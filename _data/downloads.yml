@@ -1,5 +1,6 @@
 lists:
     - title: By Year
+      slug: by-year
       display: inline
       downloads:
         - title: 2018
@@ -25,6 +26,7 @@ lists:
         - title: 1990's
           href: https://www.dropbox.com/s/yoz16r10c9lbh4a/1990s.zip?dl=1
     - title: Other Collections
+      slug: other-collections
       display: inline
       downloads:
         - title: Biplanes HD
