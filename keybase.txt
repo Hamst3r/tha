@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/hamsteralliance
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.hamsteralliance.com
+  * I am hamsteralliance (https://keybase.io/hamsteralliance) on keybase.
+  * I have a public key ASCntV2JRv5qWiK_MfX4-GjOjmWnyzjcQPGf-bMrAnEX2Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a7b55d8946fe6a5a22bf31f5f8f868ce8e65a7cb38dc40f19ff9b32b027117d90a",
+      "host": "keybase.io",
+      "kid": "0120a7b55d8946fe6a5a22bf31f5f8f868ce8e65a7cb38dc40f19ff9b32b027117d90a",
+      "uid": "e1cbd1c3be0ac93b9c526eafd715ab19",
+      "username": "hamsteralliance"
+    },
+    "merkle_root": {
+      "ctime": 1560139902,
+      "hash": "7c9593503c27d35d7ca84bb24ad30d1bbcd34348106bd5dc030b189754ae4ffb0c22da211ec249e8b1aff707971f31220f57148f3c1e579338612cc5efd6dc06",
+      "hash_meta": "2c7200edd134884c49420dd6b8b9b5a8e9f75f0bfce1d11dfe5d39e1691005b7",
+      "seqno": 5540280
+    },
+    "service": {
+      "entropy": "UX1xvCyXIyKTD/vqRpNLjakJ",
+      "hostname": "www.hamsteralliance.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.0.0"
+  },
+  "ctime": 1560140104,
+  "expire_in": 504576000,
+  "prev": "a7bf280270b7c1592149a53c2bbf4367fbf0203cae3b14b8b3e4e9e7b6b7affe",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgp7VdiUb+aloivzH1+Phozo5lp8s43EDxn/mzKwJxF9kKp3BheWxvYWTESpcCDsQgp78oAnC3wVkhSaU8K79DZ/vwIDyuOxS4s+Tp57a3r/7EIGWt50eAWpIqxMkWlhnRmGWG8wAyWYUu40Rp1LD+YZTTAgHCo3NpZ8RAKyytJS4etNQFOxVOXhX4DhO/zDI8T8n5MU8aCnwgzcApT1zlgcAU3B7K/PSWeFP0qwU1+eSnfaHrDMIPGGnYD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEwiTUbA0+cJCYvuPdY1YsHdOAFaEsK6mgJE7IwKzN/Oo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hamsteralliance
+
+==================================================================
