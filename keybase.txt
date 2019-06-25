@@ -54,3 +54,59 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/hamsteralliance
 
 ==================================================================
+==================================================================
+https://keybase.io/hamsteralliance
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.hamst3r.com
+  * I am hamsteralliance (https://keybase.io/hamsteralliance) on keybase.
+  * I have a public key ASCntV2JRv5qWiK_MfX4-GjOjmWnyzjcQPGf-bMrAnEX2Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a7b55d8946fe6a5a22bf31f5f8f868ce8e65a7cb38dc40f19ff9b32b027117d90a",
+      "host": "keybase.io",
+      "kid": "0120a7b55d8946fe6a5a22bf31f5f8f868ce8e65a7cb38dc40f19ff9b32b027117d90a",
+      "uid": "e1cbd1c3be0ac93b9c526eafd715ab19",
+      "username": "hamsteralliance"
+    },
+    "merkle_root": {
+      "ctime": 1561434473,
+      "hash": "96ed4531aac9c8adc3cf006ff5e648e012c58eb5d32b0f3fb6e033fcfdccd15522bca79294d2d9dbb45751d4d012ba692f3cea1c7f8900e9a87018712a7f7b70",
+      "hash_meta": "f94f170af849c732c39272fe5c1dd944bfce019c582623edeec2698b5cdaeb66",
+      "seqno": 5633084
+    },
+    "service": {
+      "entropy": "b3WRaS6Nin0KEDDHLEOBiaaz",
+      "hostname": "www.hamst3r.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.1.0"
+  },
+  "ctime": 1561434510,
+  "expire_in": 504576000,
+  "prev": "4c27619a112c8f1740a1e48910fcded5ab713d0062297be28ae5b5c5ae71b906",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgp7VdiUb+aloivzH1+Phozo5lp8s43EDxn/mzKwJxF9kKp3BheWxvYWTESpcCF8QgTCdhmhEsjxdAoeSJEPze1atxPQBiKXviiuW1xa5xuQbEIPQnCWM7A4ImnUe2VJnZPdyy7cH6CM+blNB92Vzvet7sAgHCo3NpZ8RANDyNaiY1gfq7/m1z2dcKxvwoT/xY+znp33xODLEFWnC9JCUdM4sAOWcy04dvga+PVKK0Rgqm90CXxEGJ/MEoAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILaRaEFCO4yUZELIk7cgOEZJBGk5x256wZz1gj/es2jVo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hamsteralliance
+
+==================================================================
