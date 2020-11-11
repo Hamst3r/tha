@@ -17,7 +17,7 @@ You are also welcome to use Hamster Alliance music in the following circumstance
 4. Artist demo reels / Showreels, video resumes
 
 <div>
-* Assuming the usage isn't specifically to profit off of the music, such as with a music channel.
+* Assuming the usage isn't specifically to profit off of the music, such as with a music channel. Do not upload my music to music channels.
 </div>
 
 ### Example credits:
