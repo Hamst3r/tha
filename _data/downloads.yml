@@ -1,10 +1,10 @@
 lists:
-    - title: By Year
+        - title: Browse Music Folder
+          href: https://filedn.com/lovhTbsn9Pz4AJR3FQeqxCF/THA%20Website%20-%20Music%20Player/
+    - title: By Year/Decade
       slug: by-year
       display: inline
       downloads:
-        - title: Browse Music Folder
-          href: https://filedn.com/lovhTbsn9Pz4AJR3FQeqxCF/THA%20Website%20-%20Music%20Player/
         - title: 2010's
           href: https://filedn.com/lovhTbsn9Pz4AJR3FQeqxCF/THA%20Website%20-%20Music%20Player/2010s.zip
         - title: 2000's
